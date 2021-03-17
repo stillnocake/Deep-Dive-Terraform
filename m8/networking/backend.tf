@@ -3,7 +3,7 @@
 ##################################################################################
 terraform {
   backend "consul" {
-    address = "host.docker.internal:8500"
+    address = "192.168.1.9:8500"
     scheme  = "http"
   }
 }
